@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
+
+:root {
+    --fontFamily-serif: "Rubik", sans-serif;
+    --font-body: var(--fontFamily-serif);
+    --fontWeight-normal: 400;
+    --fontWeight-medium: 500;
+    --fontWeight-semibold: 600;
+    --fontWeight-bold: 700;
+    --fontWeight-extrabold: 800;
+    --fontWeight-black: 900;
+    --fontSize-root: 16px;
+    --lineHeight-none: 1;
+    --lineHeight-tight: 1.1;
+    --lineHeight-normal: 1.5;
+    --lineHeight-relaxed: 1.625;
+    --fontSize-0: 0.833rem;
+    --fontSize-1: 1rem;
+    --fontSize-2: 1.2rem;
+    --fontSize-3: 1.44rem;
+    --fontSize-4: 1.728rem;
+    --fontSize-5: 2.074rem;
+    --fontSize-6: 2.488rem;
+    --fontSize-7: 2.986rem;
+    --color-primary: #f9a8d4;
+    --color-text: #c3c9d4;
+    --color-text-light: #9ca3af;
+    --color-heading: #fff;
+    --color-heading-black: #000;
+    --color-accent: #d1dce5;
+    --body-bg: #18181c;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-bg) !important;
+    font-family: var(--fontFamily-serif);
+}
+
+.home {
+    color: var(--color-text);
+}
+
+h3 {
+    font-size: var(--fontSize-4) !important;
+}
+
+p {
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: var(--fontSize-1);
+}

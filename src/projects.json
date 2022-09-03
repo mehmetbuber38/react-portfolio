@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "title": "Pure Javascript Music Player",
+        "url": "https://pure-js-music-player.vercel.app/",
+        "image": "/projects/pure-js-music-player.png",
+        "description": "Bu proje de HTML5, SCSS, Vanilla JS ve albüm kapak renklerini otomatik olarak algılamsı için Vibrant.js kütüphanesinden yararlanılmıştır. OOP kavramları üzerinde inşa edilmiştir.",
+        "stacks": "HTML5, SCSS, Vanilla JS, Vibrant.js"
+    },
+    {
+        "id": 1,
+        "title": "Atmosware",
+        "url": "https://atmosware-web.vercel.app/",
+        "image": "/projects/atmosware.png",
+        "description": "Bu proje de HTML5, SCSS, Bootstrap kütüphanesinden yararlanılmıştır.",
+        "stacks": "HTML5, SCSS, Bootstrap"
+    },
+    {
+        "id": 2,
+        "title": "Web3Modern",
+        "url": "https://www.web3modern.com/",
+        "image": "/projects/web3modern.png",
+        "description": "Bu proje de amacım globalde en çok kullanılan web3 projelerinin geniş bir resim yerine dinamik bir web sitesi altına eklenmesi ile ilgili insanların daha çabuk projelere ulaşmasını sağlamak amacındadır.  ",
+        "stacks": "HTML5, SCSS, Tailwind.css"
+    }
+]

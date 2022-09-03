@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 30px;
+  margin: 0 20px;
+  height: 60px;
+  background: transparent;
+
+  @media (max-width: 768px) {
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+}
+
+.header a {
+  font-family: var(--fontFamily-sans);
+  padding: 0.3em 0.5em;
+  border: none;
+  background: var(--body-bg);
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+
+    @media (max-width: 768px) {
+      margin-right: 0.5rem;
+    }
+  }
+
+  &:hover {
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+  }
+}

@@ -1,13 +1,13 @@
 import { Button } from 'react-bootstrap';
-import './index.css';
+import './index.scss';
 
 function Header() {
   return (
     <header className="header">
-      <Button variant="primary">Hakkımda</Button>
-      <Button variant="primary">Yetenekler</Button>
-      <Button variant="primary">Projeler</Button>
-      <Button variant="primary">Iletişim</Button>
+      <a href="#about">Hakkımda</a>
+      <a href="#skills">Yetenekler</a>
+      <a href="#projects">Projeler</a>
+      <a href="#contact">Iletişim</a>
     </header>
   );
 }
