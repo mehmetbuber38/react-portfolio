@@ -1,7 +1,19 @@
 .project-card {
   width: 100%;
-}
 
-.project-card img {
-  width: 100%;
+  a {
+    display: block;
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  img {
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 21px;
+  }
 }

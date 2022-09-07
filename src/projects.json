@@ -9,6 +9,22 @@
     },
     {
         "id": 1,
+        "title": "React.Js Tic Tac Toe",
+        "url": "https://tic-tac-toe-six-plum.vercel.app/",
+        "image": "/projects/tic-tac-toe.png",
+        "description": "Bu proje de React.js, Hooks kullanılarak bir XOX oyunu yapılmıştır",
+        "stacks": "HTML5, CSS3, Tailwind, React.js"
+    },
+    {
+        "id": 2,
+        "title": "React.js Product CRUD",
+        "url": "https://github.com/mehmetbuber38/react-basic-product-manage",
+        "image": "/projects/treva.gif",
+        "description": "React.js ile Login ve sonrası API'den ürün çekme, listeleme ve silme işlemleri yapılmıştır.",
+        "stacks": "React.js, Context.API, Fetch API, HTML5, CSS3, Bootstrap"
+    },
+    {
+        "id": 3,
         "title": "Atmosware",
         "url": "https://atmosware-web.vercel.app/",
         "image": "/projects/atmosware.png",
@@ -16,7 +32,7 @@
         "stacks": "HTML5, SCSS, Bootstrap"
     },
     {
-        "id": 2,
+        "id": 4,
         "title": "Web3Modern",
         "url": "https://www.web3modern.com/",
         "image": "/projects/web3modern.png",

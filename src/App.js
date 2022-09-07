@@ -19,29 +19,41 @@ function App() {
               avatar="/mehmet-buber.jpg"
               alt="Mehmet Büber Front End"
             />
+
+            <div className='about-links'>
+              <a href="https://github.com/mehmetbuber38" title="Github Mehmet Büber" target="_blank" rel='noopener'>
+                <img src="github.svg" />
+              </a>
+
+              <a href="https://www.linkedin.com/in/mehmet-buber/" title="Linkedin Mehmet Büber" target="_blank" rel='noopener'>
+                <img src="linkedin.svg" />
+              </a>
+            </div>
           </Col>
+
           <Col md="9">
             <section>
               <h3>Front End Developer</h3>
               <article id="about">
                 <h3>Ben Kimim?</h3>
                 <p>
-                  1995 İstanbul doğumluyum.Lise eğitimimi bilişim teknolojileri temelleri bölümünde tamamladım.Lise eğitimimden sonra
-                  Kırklareli Üniversitesi Pınarhisar Meslek Yüksek Okulu Bilgisayar Programcılığı üzerine eğitimimi tamamladım. Bir süre ara vermek zorunda kaldığım
-                  yazılım sektörüne tekrardan giriş yaptım.Öncelikle kendimi Front End sektöründe ilerlemek için HTML5 öğrendim. HTML5 öğrendikten sonra kullanıcıya
-                  daha güzel bir arayüz ekranı göstermek için Css öğrenmeye başladım.Kendimi Javascript alanında geliştirmeye ve bu arada Javascript ile birlikte React öğrenmeye başladım.
+                  1995 İstanbul doğumluyum. Kırklareli Üniversitesi Bilgisayar Programcılığı üzerine eğitimimi tamamladım. Bir süre ara vermek zorunda kaldığım
+                  yazılım sektörüne tekrardan giriş yaptım.Öncelikle kendimi Front End alanına yakın hissettiğim için yazılımın bu alanına yöneldim. Front End'in en güçlü teknolojisi olan Javascript ile dinamik ve yaratıcı sayfalar yapmayı seviyorum.
+                  Javascript'in güçlü ekosistemindeki kütüphaneleri ile çok daha gelişmiş ve stabil projeler geliştirmek istiyorum.
                 </p>
               </article>
 
               <article>
                 <h3>Eğitim</h3>
-                <p>Magna nulla anim sit occaecat do aliquip laborum est. Adipisicing anim culpa veniam sit commodo duis dolore laboris eu. Commodo aliqua minim irure aute aliquip nulla culpa. Aute occaecat incididunt nulla in enim. Ad eu ea incididunt pariatur anim veniam eiusmod sint proident ea.
+                <p>
+                  Kırklareli Üniversitesi - Bilgisayar Programcılığı 2020
+
                 </p>
               </article>
 
               <article id="skills">
                 <h3>Yetenekler</h3>
-                <p>Magna nulla anim sit occaecat do aliquip laborum est. Adipisicing anim culpa veniam sit commodo duis dolore laboris eu. Commodo aliqua minim irure aute aliquip nulla culpa. Aute occaecat incididunt nulla in enim. Ad eu ea incididunt pariatur anim veniam eiusmod sint proident ea.
+                <p> HTML5, CSS3, SCSS, Javascript, React.js, Bootstrap, Tailwind.css, Git
                 </p>
               </article>
 
@@ -49,7 +61,7 @@ function App() {
                 <Carousel
                   autoPlay
                   infiniteLoop
-                  interval={1500}
+                  interval={1800}
                   swipeable
                   emulateTouch
                 >
@@ -59,12 +71,19 @@ function App() {
                       alt={item.title}
                       description={item.description}
                       picture={item.image}
-                      title={item.title}
                       stacks={item.stacks}
+                      title={item.title}
+                      url={item.url}
                     />
                   )}
                 </Carousel>
               </div>
+
+              <article id="contact">
+                <h3>Iletisim</h3>
+                <p>E-mail: <a href="mailto:mehmetbuberr3895@gmail.com">mehmetbuberr3895@gmail.com</a></p>
+                <p>Linkedin: <a href="https://www.linkedin.com/in/mehmet-buber/">linkedin.com/in/mehmet-buber</a></p>
+              </article>
             </section>
           </Col>
         </Row>

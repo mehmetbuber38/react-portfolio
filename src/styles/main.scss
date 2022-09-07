@@ -55,3 +55,28 @@ p {
     font-family: var(--font-body);
     font-size: var(--fontSize-1);
 }
+
+.about-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1.8rem;
+
+    @media (min-width: 1024px) {
+        margin-bottom: 0;
+    }
+
+    a {
+        margin-right: 1rem;
+
+        img {
+            max-width: 40px;
+            width: 100%;
+        }
+    }
+}
+
+#projects .carousel {
+    padding-bottom: 25px;
+}
